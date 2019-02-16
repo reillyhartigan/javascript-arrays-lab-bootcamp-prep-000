@@ -15,11 +15,9 @@ return kittens.shift(name)
 }
 function appendKitten(name) {
   var name = "Broom"
-var kittens = [name, ...kittens]
-return kittens
+return kittens = [name, ...kittens]
 }
 function prependKitten(name) {
   var name = "Arnold"
-  var kittens = [name, ...kittens]
-  return kittens
+  return kittens = [...kittens, name]
 }
