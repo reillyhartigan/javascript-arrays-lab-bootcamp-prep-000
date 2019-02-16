@@ -13,12 +13,13 @@ return kittens.pop(name)
 function destructivelyRemoveFirstKitten(name) {
 return kittens.shift(name)
 }
-var name = "Broom"
 function appendKitten(name) {
+  var name = "Broom"
 var kittens = [name, ...kittens]
 return kittens
 }
 function prependKitten(name) {
+  var name = "Arnold"
   var kittens = [name, ...kittens]
   return kittens
 }
